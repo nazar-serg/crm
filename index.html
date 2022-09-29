@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <main>
+            <div class="page">
+                <div class="page__inners">
+                    <div class="page__aside aside">
+                        <h2 class="aside__title">Dashboard <span class="aside__title-small">v.01</span></h2>
+                        <ul class="aside__list">
+                            <li class="aside__item item_1">
+                                <img src="img/aside/key-square.svg" alt="Dashboard">
+                                <a class="aside__link-btn" href="#">Dashboard</a>
+                            </li>
+                            <li class="aside__item item_2">
+                                <img src="img/aside/3d-square.svg" alt="Product">
+                                <a class="aside__link-btn" href="#">Product</a>
+                            </li>
+                            <li class="aside__item aside__item_active item_3">
+                                <img src="img/aside/user-square.svg" alt="Customers">
+                                <a class="aside__link-btn" href="#">Customers</a>
+                            </li>
+                            <li class="aside__item item_4">
+                                <img src="img/aside/wallet-money.svg" alt="Income">
+                                <a class="aside__link-btn" href="#">Income</a>
+                            </li>
+                            <li class="aside__item item_5">
+                                <img src="img/aside/discount-shape.svg" alt="Promote">
+                                <a class="aside__link-btn" href="#">Promote</a>
+                            </li>
+                            <li class="aside__item item_6">
+                                <img src="img/aside/message-question.svg" alt="Help">
+                                <a class="aside__link-btn" href="#">Help</a>
+                            </li>
+                        </ul>
+                        <div class="aside__manager manager">
+                            <div class="manager__inners">
+                                <div class="manager__image">
+                                    <img src="img/aside/image-manager.png" alt="">
+                                </div>
+                                <div class="manager__info">
+                                    <div class="manager__name">Evano</div>
+                                    <div class="manager__profession">Project Manager</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page__content content">
+                        <div class="content__container">
+                            <div class="content__greetings">
+                                <h2 class="greetings__name">Hello Evano 👋🏼,</h2>
+                            </div>
+                            <div class="content__table table">
+                                <div class="table__top">
+                                    <div class="table__top-info">
+                                        <h2 class="table__top-title">All Customers</h2>
+                                        <p class="table__top-active">Active Members</p>
+                                    </div>
+                                    <div class="table__top-search search-top">
+                                        <form action="#">
+                                            <input type="search" id="site-search" name="q" placeholder="Search">
+                                        </form>
+                                    </div>
+                                </div>
+                                <table class="table__all-info">
+                                    <thead>
+                                        <tr>
+                                            <th>Customer Name</th>
+                                            <th>Company</th>
+                                            <th>Phone Number</th>
+                                            <th>Email</th>
+                                            <th>Country</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Jane Cooper</td>
+                                            <td>Microsoft</td>
+                                            <td>(225) 555-0118</td>
+                                            <td>jane@microsoft.com</td>
+                                            <td>United States</td>
+                                            <td><button class="btn btn_active">Active</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Floyd Miles</td>
+                                            <td>Yahoo</td>
+                                            <td>(205) 555-0100</td>
+                                            <td>floyd@yahoo.com</td>
+                                            <td>Kiribati</td>
+                                            <td><button class="btn btn_inactive">Inactive</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ronald Richards</td>
+                                            <td>Adobe</td>
+                                            <td>(302) 555-0107</td>
+                                            <td>ronald@adobe.com</td>
+                                            <td>Israel</td>
+                                            <td><button class="btn btn_inactive">Inactive</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Marvin McKinney</td>
+                                            <td>Tesla</td>
+                                            <td>(252) 555-0126</td>
+                                            <td>marvin@tesla.com</td>
+                                            <td>Iran</td>
+                                            <td><button class="btn btn_active">Active</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jerome Bell</td>
+                                            <td>Google</td>
+                                            <td>(629) 555-0129</td>
+                                            <td>jerome@google.com</td>
+                                            <td>Réunion</td>
+                                            <td><button class="btn btn_active">Active</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Kathryn Murphy</td>
+                                            <td>Microsoft</td>
+                                            <td>(406) 555-0120</td>
+                                            <td>kathryn@microsoft.com</td>
+                                            <td>Curaçao</td>
+                                            <td><button class="btn btn_active">Active</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jacob Jones</td>
+                                            <td>Yahoo</td>
+                                            <td>(208) 555-0112</td>
+                                            <td>jacob@yahoo.com</td>
+                                            <td>Brazil</td>
+                                            <td><button class="btn btn_active">Active</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Kristin Watson</td>
+                                            <td>Facebook</td>
+                                            <td>(704) 555-0127</td>
+                                            <td>kristin@facebook.com</td>
+                                            <td>Åland Islands</td>
+                                            <td><button class="btn btn_inactive">Inactive</button></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="table__pagination pagination">
+                                    <div class="pagination__inners">
+                                        <div class="pagination__text">Showing data 1 to 8 of 256K entries</div>
+                                        <div class="pagination__page">
+                                            <ul class="pagination__list">
+                                                <li class="pagination__item">
+                                                    <a class="pagination__link link_last" href="#">
+                                                        <img src="img/content/str-left.svg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li class="pagination__item">
+                                                    <a class="pagination__link active_link" href="#">1</a>
+                                                </li>
+                                                <li class="pagination__item">
+                                                    <a class="pagination__link" href="#">2</a>
+                                                </li>
+                                                <li class="pagination__item">
+                                                    <a class="pagination__link" href="#">3</a>
+                                                </li>
+                                                <li class="pagination__item">
+                                                    <a class="pagination__link" href="#">4</a>
+                                                </li>
+                                                <li class="pagination__item">
+                                                    <a class="pagination__link" href="#">...</a>
+                                                </li>
+                                                <li class="pagination__item">
+                                                    <a class="pagination__link" href="#">40</a>
+                                                </li>
+                                                <li class="pagination__item">
+                                                    <a class="pagination__link link_next" href="#">
+                                                        <img src="img/content/str-right.svg" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
